@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-12T23:46:42 GMT+03:00" name="Default suite" finished-at="2025-05-12T23:46:50 GMT+03:00" duration-ms="7262">
+    <groups>
+    </groups>
+    <test started-at="2025-05-12T23:46:42 GMT+03:00" name="Default test" finished-at="2025-05-12T23:46:50 GMT+03:00" duration-ms="7262">
+      <class name="AppTest">
+        <test-method is-config="true" signature="MtSetup()[pri:0, instance:AppTest@5f6722d3]" started-at="2025-05-12T23:46:42 GMT+03:00" name="MtSetup" finished-at="2025-05-12T23:46:48 GMT+03:00" duration-ms="6126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MtSetup -->
+        <test-method signature="InsertIntoDataBase()[pri:1, instance:AppTest@5f6722d3]" started-at="2025-05-12T23:46:48 GMT+03:00" name="InsertIntoDataBase" finished-at="2025-05-12T23:46:49 GMT+03:00" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertIntoDataBase -->
+        <test-method signature="UpdateDateBase()[pri:2, instance:AppTest@5f6722d3]" started-at="2025-05-12T23:46:49 GMT+03:00" name="UpdateDateBase" finished-at="2025-05-12T23:46:49 GMT+03:00" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateDateBase -->
+        <test-method signature="ReadDateBase()[pri:3, instance:AppTest@5f6722d3]" started-at="2025-05-12T23:46:49 GMT+03:00" name="ReadDateBase" finished-at="2025-05-12T23:46:49 GMT+03:00" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadDateBase -->
+        <test-method signature="DeleteDateBase()[pri:4, instance:AppTest@5f6722d3]" started-at="2025-05-12T23:46:50 GMT+03:00" name="DeleteDateBase" finished-at="2025-05-12T23:46:50 GMT+03:00" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDateBase -->
+      </class> <!-- AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
